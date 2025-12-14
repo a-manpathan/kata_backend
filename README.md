@@ -136,22 +136,26 @@ SweetStock uses a warm, friendly design system:
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### Admin Panel
-![Admin Panel](screenshots/admin.png)
+### Create Account
+![Create Account](screenshots/register_page.png)
+
+### Popup
+![Popup](screenshots/popup_page.png)
+
+
 
 ## 🤖 My AI Usage
+**AI Tools Used:**
+* **Google Gemini:** Primary coding assistant and thought partner.
 
-### AI Tools Used
-- **Amazon Q Developer**: Primary AI assistant for code generation and debugging
-- **GitHub Copilot**: Code completion and suggestions
+**How I Used Them:**
+* **Brainstorming & Architecture:** I used Gemini to brainstorm the database schema structure (User vs. Sweets vs. Inventory relations) and to decide between using Prisma vs. Drizzle ORM.
+* **Generating Boilerplate:** I asked Gemini to generate the initial `tsconfig.json` and `jest.config.ts` configurations to ensure the environment was set up correctly for TypeScript testing.
+* **Writing Tests:** For the "Inventory" module, I prompted the AI to help write edge-case tests (e.g., "Write a failing test for when stock is exactly zero") to ensure my TDD cycle was robust.
+* **Debugging:** When deploying to Render, I encountered module path errors. I pasted the logs into Gemini to identify the missing build script in `package.json`.
 
-### How AI Was Used
-1. **API Structure**: Used Amazon Q to brainstorm RESTful API endpoint design
-2. **Database Schema**: AI helped design the PostgreSQL schema with Drizzle ORM
-3. **Frontend Components**: Generated initial React component boilerplate
-4. **Testing**: AI assisted in writing Jest test cases for authentication
-5. **CSS Styling**: Used AI to create the SweetStock design system
-6. **Error Debugging**: AI helped resolve TypeScript and configuration issues
+
+
 
 ### AI Impact on Workflow
 - **Accelerated Development**: AI reduced boilerplate code writing by ~60%
@@ -165,16 +169,12 @@ The AI tools significantly enhanced productivity while maintaining code quality 
 
 ### Backend Deployment
 The backend is configured for deployment on platforms like:
-- Heroku
-- Railway
 - Render
-- AWS
+
 
 ### Frontend Deployment
 The frontend can be deployed on:
 - Vercel
-- Netlify
-- GitHub Pages
 
 ## 📄 License
 
