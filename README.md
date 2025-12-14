@@ -131,16 +131,16 @@ SweetStock uses a warm, friendly design system:
 ## 📱 Screenshots
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](SCREENSHOTS/login.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](SCREENSHOTS/dashboard.png)
 
 ### Create Account
-![Create Account](screenshots/register_page.png)
+![Create Account](SCREENSHOTS/register_page.png)
 
 ### Popup
-![Popup](screenshots/popup_page.png)
+![Popup](SCREENSHOTS/popup_page.png)
 
 
 
